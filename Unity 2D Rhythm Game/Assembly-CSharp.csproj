@@ -63,6 +63,8 @@
     <Compile Include="Assets\Scripts\BackgroundBehavior.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
+    <Compile Include="Assets\Scripts\NoteController.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooler.cs" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/Sahun/Unity Rhythm Game Project/Project/Unity-2D-Rhythm-Game/Unity 2D Rhythm Game/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
