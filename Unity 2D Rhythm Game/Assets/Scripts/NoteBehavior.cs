@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//노트 판정 및 파괴
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

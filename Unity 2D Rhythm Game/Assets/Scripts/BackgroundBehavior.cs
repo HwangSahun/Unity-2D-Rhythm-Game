@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// 배경화면에 대한 설정
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

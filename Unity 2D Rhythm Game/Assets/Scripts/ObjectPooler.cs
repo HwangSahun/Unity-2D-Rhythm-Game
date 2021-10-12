@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//몇개의 노트가 내려갈지 설정
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

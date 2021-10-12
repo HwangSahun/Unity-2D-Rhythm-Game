@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//노트 생성
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
