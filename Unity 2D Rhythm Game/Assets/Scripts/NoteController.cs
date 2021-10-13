@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class NoteController : MonoBehaviour
 {
+    // 하나의 노트에 대한 정보를 담는 노트 클래스를 정의
     class Note
     {
         public int noteType { get; set; }
@@ -27,6 +28,7 @@ public class NoteController : MonoBehaviour
     void MakeNote(Note note)
     {
         GameObject obj = noteObjectPooler.getObject(note.noteType);
+        // 설정된 시작 라인으로 노트를 이동
         x = obj.transform.position.x;
         z = obj.transform.position.z;
         obj.transform.position = new Vector3(x, startY, z);
@@ -53,6 +55,7 @@ public class NoteController : MonoBehaviour
         notes.Add(new Note(2, 6));
         notes.Add(new Note(3, 7));
         notes.Add(new Note(4, 8));
+        // 모든 노트를 정해진 시간에 출발하도록 설정
 
         for (int i = 0; i < notes.Count; i++)
         {
