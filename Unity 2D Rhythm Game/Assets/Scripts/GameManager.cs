@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
+    //게임 매니저를 싱글 톤 처리_원활한 게임 관리 떄문
     public static GameManager instance { get; set; }
     private void Awake()
     {
