@@ -18,7 +18,7 @@ public class BackgroundBehavior : MonoBehaviour
     IEnumerator FadeOut(SpriteRenderer spriteRenderer, float amount)
     {
         Color color = spriteRenderer.color;
-        while(color.a > 0.0f)
+        while(color.a > 0.0f)   // color는 투명도
         {
             color.a -= amount;
             spriteRenderer.color = color;
