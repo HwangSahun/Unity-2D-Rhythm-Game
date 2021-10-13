@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
-    //
-    //
-    //
-    //
-    //
+    // 이중 리스트 사용
+    // Note 1: 10개 => 리스트 1
+    // Note 2: 10개 => 리스트 2
+    // Note 3: 10개 => 리스트 3
+    // Note 4: 10개 => 리스트 4
 
     public List<GameObject> Notes;
     private List<List<GameObject>> poolsOfNotes;
@@ -20,10 +20,10 @@ public class ObjectPooler : MonoBehaviour
     void Start()
     {
         poolsOfNotes = new List<List<GameObject> >();
-        for(int i = 0; i < Notes.Count; i++)
+        for(int i = 0; i < Notes.Count; i++) // 4번 반복
         {
             poolsOfNotes.Add(new List<GameObject>());
-            for(int n = 0; n < noteCount; n++)
+            for(int n = 0; n < noteCount; n++) // 10번 반복
             {
                 GameObject obj = Instantiate(Notes[i]);
                 obj.SetActive(false);
