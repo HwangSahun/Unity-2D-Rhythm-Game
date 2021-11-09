@@ -67,6 +67,9 @@
     <Compile Include="Assets\Scripts\NoteController.cs" />
     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
     <Compile Include="Assets\Scripts\PlayerInformation.cs" />
+    <Compile Include="Assets\Scripts\SongSelectManager.cs" />
+    <None Include="Assets\Resources\Beats\3.txt" />
+    <None Include="Assets\Resources\Beats\2.txt" />
     <None Include="Assets\Resources\Beats\1.txt" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/Sahun/Unity Rhythm Game Project/Project/Unity-2D-Rhythm-Game/Unity 2D Rhythm Game/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
