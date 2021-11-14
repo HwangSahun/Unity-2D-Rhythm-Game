@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895515498096",
+    "firebase_url": "https://unity-rhythm-game-bb052-default-rtdb.firebaseio.com",
+    "project_id": "unity-rhythm-game-bb052",
+    "storage_bucket": "unity-rhythm-game-bb052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895515498096:android:a3774b62ba953b18dec6b5",
+        "android_client_info": {
+          "package_name": "com.sahun.unityrhythmgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895515498096-k9n69mbtujbfvkks4r4n0qkqs4nh8hnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS7MFrAkCxyu8TXkzQD-o2W6xRigW3udM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895515498096-k9n69mbtujbfvkks4r4n0qkqs4nh8hnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
