@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Firebase.Auth;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class JoinManager : MonoBehaviour
 {
@@ -60,7 +61,7 @@ public class JoinManager : MonoBehaviour
             {
                 if(!task.IsCanceled && !task.IsFaulted)
                 {
-                    messageUI.text = "Success To Register";
+                    SceneManager.LoadScene("LoginScene");
                 }
                 else
                 {
@@ -68,5 +69,10 @@ public class JoinManager : MonoBehaviour
                 }
             }
         );
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("LoginScene");
     }
 }
