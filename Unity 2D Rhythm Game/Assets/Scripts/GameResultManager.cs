@@ -56,9 +56,7 @@ public class GameResultManager : MonoBehaviour
         rank1UI.text = "Loading Data";
         rank2UI.text = "Loading Data";
         rank3UI.text = "Loading Data";
-        DatabaseReference reference;
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://unity-rhythm-game-bb052-default-rtdb.firebaseio.com/");
-        reference = FirebaseDatabase.DefaultInstance.GetReference("ranks")
+        DatabaseReference reference = PlayerInformation.GetDatabaseReference().Child("ranks")
             .Child(PlayerInformation.selectedMusic);
         // 데이터 셋의 모든 데이터를 JSON 형태로 불러옴
         reference.OrderByChild("score").GetValueAsync().ContinueWith(task =>
